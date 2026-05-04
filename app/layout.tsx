@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next"
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google"
+import { Geist, Geist_Mono, Instrument_Serif, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { PostHogProvider } from "./providers"
 import { SiteNav } from "@/components/site-nav"
@@ -22,6 +22,12 @@ const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-instrument",
+  display: "swap",
+})
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
   display: "swap",
 })
 
@@ -67,7 +73,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geist.variable} ${geistMono.variable} ${instrumentSerif.variable} bg-background`}
+      className={`${geist.variable} ${geistMono.variable} ${instrumentSerif.variable} ${inter.variable} bg-background`}
     >
       <body className="font-sans antialiased text-foreground min-h-screen flex flex-col">
         <PostHogProvider>

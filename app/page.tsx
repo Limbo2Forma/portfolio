@@ -220,11 +220,11 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <div className="col-span-12 md:col-span-8 space-y-6 text-lg md:text-xl leading-relaxed text-pretty">
+          <div className="col-span-12 md:col-span-8 space-y-6 text-lg md:text-xl leading-relaxed text-pretty font-inter">
             <Reveal>
               <p>
                 I&apos;m a{" "}
-                <span className="font-editorial italic">data engineer</span> and
+                <span className="font-editorial italic text-2xl md:text-3xl font-normal tracking-normal">data engineer</span> and
                 backend developer with 4+ years of experience designing systems
                 that move, store and surface data at scale. I care about the
                 quiet parts: schemas, SLAs, retries, cost.
@@ -233,18 +233,18 @@ export default function HomePage() {
             <Reveal delay={60}>
               <p>
                 Most recently I led the data ingestion architecture for{" "}
-                <span className="font-medium">UDE Central Monitoring</span> at
+                <span className="font-bold">UDE Central Monitoring</span> at
                 NTT DATA VDS, working peer-to-peer with the Wolfsburg team in
                 Germany. Before that, I built backend services in Quarkus, a
                 customer data platform on HBase + Spark, and processed{" "}
-                <span className="font-medium">10TB of daily logs</span> for some
+                <span className="font-bold">10TB of daily logs</span> for some
                 of Vietnam&apos;s largest news properties.
               </p>
             </Reveal>
             <Reveal delay={120}>
               <p>
                 I&apos;m now in Melbourne studying a{" "}
-                <span className="font-medium">Master of Data Science</span> at
+                <span className="font-bold">Master of Data Science</span> at
                 RMIT, and taking on selected freelance and contract engagements
                 — pipelines, observability, backend APIs, cloud migrations.
               </p>
