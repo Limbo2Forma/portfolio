@@ -59,6 +59,7 @@ export const skills: SkillGroup[] = [
     label: "Data & ML",
     items: [
       "Apache Spark",
+      "Snowflake",
       "Airflow",
       "Databricks",
       "Kafka",
