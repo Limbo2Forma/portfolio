@@ -52,7 +52,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AU",
   },
-  generator: "v0.app",
 }
 
 export const viewport: Viewport = {
