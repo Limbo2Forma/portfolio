@@ -113,31 +113,6 @@ export function ContactForm() {
         </div>
       </fieldset>
 
-      {/* Budget */}
-      <fieldset className="space-y-3">
-        <legend className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-          02 / Approximate budget?
-        </legend>
-        <div className="flex flex-wrap gap-2">
-          {budgetOptions.map((b) => (
-            <button
-              type="button"
-              key={b}
-              onClick={() => setBudget(b)}
-              className={
-                "px-4 py-2 rounded-full border text-sm transition-colors " +
-                (budget === b
-                  ? "bg-foreground text-background border-foreground"
-                  : "border-border hover:border-foreground")
-              }
-              aria-pressed={budget === b}
-            >
-              {b}
-            </button>
-          ))}
-        </div>
-      </fieldset>
-
       {/* Details */}
       <div className="space-y-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
