@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "UDE Central Monitoring",
     client: "NTT DATA VDS",
     role: "Data Engineer",
-    year: "2023 — 2026",
+    year: "2023 - 2026",
     category: "Observability Platform",
     summary:
       "End-to-end observability platform unifying ingestion, anomaly detection and Grafana dashboards across customer environments.",
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: "Log Analytics at 10TB/day",
     client: "VCCorp",
     role: "Data Analyst",
-    year: "2021 — 2022",
+    year: "2021 - 2022",
     category: "Big Data Analytics",
     summary:
       "PySpark log analysis for major Vietnamese news sites, processing 10TB of daily traffic with Airflow-orchestrated workflows.",

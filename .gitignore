@@ -6,7 +6,7 @@ __v0_jsx-dev-runtime.ts
 .v0-trash/
 .vercel/
 next.user-config.*
-
+vhn-cv.pdf
 # Environment variables
 .env*.local
 .env
@@ -15,3 +15,6 @@ node_modules
 .next/
 .DS_Store
 .env.local
+
+.vercel
+.env*.local

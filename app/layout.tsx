@@ -33,8 +33,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nam Vu Hai — Data Engineer & Backend Developer",
-    template: "%s — Nam Vu Hai",
+    default: "Nam Vu Hai, Data Engineer & Backend Developer",
+    template: "%s, Nam Vu Hai",
   },
   description:
     "Data engineer and backend developer with 4+ years of experience designing data pipelines, ETL systems, and cloud-native APIs across Azure and AWS.",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Nam Vu Hai" }],
   creator: "Nam Vu Hai",
   openGraph: {
-    title: "Nam Vu Hai — Data Engineer & Backend Developer",
+    title: "Nam Vu Hai, Data Engineer & Backend Developer",
     description:
       "4+ years building data platforms, ETL pipelines, and backend systems. Currently studying a Master of Data Science at RMIT.",
     type: "website",

@@ -53,7 +53,7 @@ export function ProjectCard({
               {project.title}
             </h3>
             <p className="text-base text-muted-foreground mt-1">
-              {project.client} — {project.year}
+              {project.client} - {project.year}
             </p>
           </div>
           <ArrowUpRight className="size-5 mt-1 text-muted-foreground transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />

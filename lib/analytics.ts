@@ -8,6 +8,6 @@ export function track(event: string, properties?: Record<string, unknown>) {
       posthog.capture(event, properties)
     }
   } catch {
-    // swallow — analytics should never break the app
+    // swallow - analytics should never break the app
   }
 }

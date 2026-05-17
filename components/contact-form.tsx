@@ -7,7 +7,7 @@ import { submitContact } from "@/app/contact/actions"
 
 type Status = "idle" | "success" | "error"
 
-const budgetOptions = ["< $5k", "$5k — $20k", "$20k — $50k", "$50k+", "Not sure yet"]
+const budgetOptions = ["< $5k", "$5k - $20k", "$20k - $50k", "$50k+", "Not sure yet"]
 const projectTypes = [
   "Data Pipeline",
   "Backend API",

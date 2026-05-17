@@ -103,7 +103,7 @@ export function SiteFooter() {
                 </li>
                 <li>
                   <a
-                    href="/Nam-Vu-Hai-CV.pdf"
+                    href="/api/cv"
                     target="_blank"
                     rel="noreferrer"
                     onClick={() => track("resume_click", { location: "footer" })}

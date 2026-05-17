@@ -44,7 +44,7 @@ const channels = [
     icon: FileText,
     label: "Résumé",
     value: "PDF, 1 page",
-    href: "/Nam-Vu-Hai-CV.pdf",
+    href: "/api/cv",
     event: "resume_click",
   },
 ] as const
@@ -165,7 +165,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1600px]">
           <Reveal>
             <p className="font-mono text-[13px] uppercase tracking-[0.18em] text-muted-foreground">
-              [ About ] — 02 / Index
+              [ About ] - 02 / Index
             </p>
           </Reveal>
           <Reveal delay={60}>
@@ -205,14 +205,14 @@ export default function HomePage() {
                     Master of Data Science, RMIT (ongoing)
                     <br />
                     <span className="text-muted-foreground">
-                      BSc Software Engineering, RMIT VN — First Class Honour
+                      BSc Software Engineering, RMIT VN - First Class Honour
                     </span>
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <Award className="size-4 mt-1 shrink-0 text-primary" />
                   <span>
-                    Top 1 — RMIT Kaggle Competitions (Life Expectancy & Book
+                    Top 1 - RMIT Kaggle Competitions (Life Expectancy & Book
                     Rating)
                   </span>
                 </li>
@@ -246,7 +246,7 @@ export default function HomePage() {
                 I&apos;m now in Melbourne studying a{" "}
                 <span className="font-bold">Master of Data Science</span> at
                 RMIT, and taking on selected freelance and contract engagements
-                — pipelines, observability, backend APIs, cloud migrations.
+                - pipelines, observability, backend APIs, cloud migrations.
               </p>
             </Reveal>
             <Reveal delay={180}>
@@ -259,7 +259,7 @@ export default function HomePage() {
                   <ArrowUpRight className="size-4" />
                 </a>
                 <a
-                  href="/Nam-Vu-Hai-CV.pdf"
+                  href="/api/cv"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-3 text-base font-medium hover:bg-foreground hover:text-background transition-colors"
@@ -370,7 +370,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1600px]">
           <Reveal>
             <p className="font-mono text-[13px] uppercase tracking-[0.18em] text-muted-foreground">
-              [ Work ] — Index of {projects.length} projects
+              [ Work ] - Index of {projects.length} projects
             </p>
           </Reveal>
           <Reveal delay={60}>
@@ -419,7 +419,7 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={60}>
             <p className="font-display text-4xl md:text-6xl lg:text-7xl tracking-tight leading-[1.05] text-balance">
-              I obsess over the unglamorous parts of data —{" "}
+              I obsess over the unglamorous parts of data -{" "}
               <span className="font-editorial text-primary">schemas</span>,{" "}
               <span className="font-editorial text-accent">SLAs</span>, retries,
               cost. The dashboards are the easy bit.
@@ -441,7 +441,7 @@ export default function HomePage() {
                 {
                   n: "03",
                   t: "Boring is good",
-                  d: "I default to proven tools — Postgres, Spark, Airflow — and bring novelty only where it pays for itself.",
+                  d: "I default to proven tools - Postgres, Spark, Airflow - and bring novelty only where it pays for itself.",
                 },
               ].map((item) => (
                 <div key={item.n} className="border-t border-background/15 pt-6">
@@ -470,7 +470,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1600px]">
           <Reveal>
             <p className="font-mono text-[13px] uppercase tracking-[0.18em] text-muted-foreground">
-              [ Contact ] — Let&apos;s build something
+              [ Contact ] - Let&apos;s build something
             </p>
           </Reveal>
           <Reveal delay={60}>
@@ -545,7 +545,7 @@ export default function HomePage() {
                   id="form-heading"
                   className="font-display text-3xl md:text-4xl tracking-tight leading-[0.95] text-balance"
                 >
-                  A small, focused engagement —{" "}
+                  A small, focused engagement -{" "}
                   <span className="font-editorial">done well.</span>
                 </h3>
               </div>
@@ -582,10 +582,10 @@ export default function HomePage() {
                   Best fit
                 </p>
                 <ul className="text-base space-y-1.5 leading-relaxed">
-                  <li>— ETL & data pipeline design</li>
-                  <li>— Observability (Grafana / LGTM)</li>
-                  <li>— Backend APIs (Python / Java)</li>
-                  <li>— Cloud migrations (Azure / AWS)</li>
+                  <li>- ETL & data pipeline design</li>
+                  <li>- Observability (Grafana / LGTM)</li>
+                  <li>- Backend APIs (Python / Java)</li>
+                  <li>- Cloud migrations (Azure / AWS)</li>
                 </ul>
               </div>
             </Reveal>
