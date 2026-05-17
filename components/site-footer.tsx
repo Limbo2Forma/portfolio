@@ -103,7 +103,7 @@ export function SiteFooter() {
                 </li>
                 <li>
                   <a
-                    href="/api/cv"
+                    href="https://q7dvhjxishjxdnvb.public.blob.vercel-storage.com/vhn-cv.pdf"
                     target="_blank"
                     rel="noreferrer"
                     onClick={() => track("resume_click", { location: "footer" })}

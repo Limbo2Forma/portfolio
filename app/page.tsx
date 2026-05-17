@@ -44,7 +44,7 @@ const channels = [
     icon: FileText,
     label: "Résumé",
     value: "PDF, 1 page",
-    href: "/api/cv",
+    href: "https://q7dvhjxishjxdnvb.public.blob.vercel-storage.com/vhn-cv.pdf",
     event: "resume_click",
   },
 ] as const
@@ -259,7 +259,7 @@ export default function HomePage() {
                   <ArrowUpRight className="size-4" />
                 </a>
                 <a
-                  href="/api/cv"
+                  href="https://q7dvhjxishjxdnvb.public.blob.vercel-storage.com/vhn-cv.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-3 text-base font-medium hover:bg-foreground hover:text-background transition-colors"
